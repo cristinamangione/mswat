@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8">
+<title>My CV</title>
+</head>
+<body>
+	<h1>Curriculum vitae</h1>
+	<hr />
+	<h1>Foto</h1>
+
+	<p>
+		<img src="../pic/shark.jpg" width="200" height="200" />
+	</p>
+	<hr />
+	<h2>Informazioni personali:</h2>
+	<p>Nome: Cristina</p>
+	<p>Cognome: Mangione</p>
+	<p>Anni: 25</p>
+	<p>Nazionalità: italiana</p>
+	<hr />
+	<h2>Titolo di studi:</h2>
+	<p>Laurea: Scienze politiche e delle relazioni internazionali</p>
+	<p>Presso: Università Cattolica del sacro cuore di Milano</p>
+	<p>
+		<a href="https://www.unicatt.it/">Vedi la mia università!</a>
+	</p>
+	<p>
+		Conseguita il <b>28 Settembre 2019</b>
+	</p>
+	<hr />
+
+	<h2>Esperienze lavorative:</h2>
+	<p>
+		Stagista IT presso <i>Accenture</i>
+	</p>
+	<p>
+		<a href="https://it.linkedin.com/in/cristina-mangione-53505214a/">Da
+			un occhio al mio profilo Linkedin!</a>
+	</p>
+	<hr />
+
+	<h2>Competenze tecniche:</h2>
+	<table>
+		<thead>
+			<tr>
+				<th scope="row">\</th>
+				<th scope="col">Utente base</th>
+				<th scope="col">Utente avanzato</th>
+				<th scope="col">Professionista</th>
+			</tr>
+		</thead>
+		<tr>
+			<th scope="row">Java</th>
+			<td>x</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">SQL</th>
+			<td></td>
+			<td>x</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">HTML</th>
+			<td></td>
+			<td></td>
+			<td>x</td>
+		</tr>
+	</table>
+	<hr />
+	<h2>Competenze linguistiche:</h2>
+	<table>
+		<thead>
+			<tr>
+				<th scope="row">\</th>
+				<th scope="col">Utente base</th>
+				<th scope="col">Utente avanzato</th>
+				<th scope="col">Madrelingua</th>
+			</tr>
+		</thead>
+		<tr>
+			<th scope="row">Inglese</th>
+			<td></td>
+			<td>x</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Spagnolo</th>
+			<td></td>
+			<td>x</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Italiano</th>
+			<td></td>
+			<td></td>
+			<td>x</td>
+		</tr>
+	</table>
+	<h2>Contattami!</h2>
+	<p>Lascia il tuo nome e cognome:</p>
+	<form action="/stuff">
+		<div>
+			<fieldset>
+				<legend>User</legend>
+				<label>First name: <input type="text" name="fname" required></label> <label>Last
+					name: <input type="text" name="lname" required>
+				</label>
+			</fieldset>
+        </div>
+			 <div>
+            Lasciami un commento:<br />
+            <textarea name="comment">Scrivi qui il tuo commento.</textarea>
+        </div>
+
+
+		<p>Che lavoro mi vorresti offrire?</p>
+
+		<div>
+			<input type="checkbox" id="langJ" name="lang" value="Junior IT"/>
+			<label for="langJ">Junior IT</label> <input type="checkbox"
+				id="langPy" name="lang" value="Consultant IT" /> <label for="langPy">Consultant
+				IT</label> <input type="checkbox" id="langCpp" name="lang" value="Manager IT"
+				/> <label for="langCpp">Manager IT</label>
+		</div>
+
+
+		<p>La tipologia di contratto?</p>
+
+		<div>
+			<input type="radio" id="favJ" name="fav" value="apprendistato"/> <label
+				for="favJ">Apprendistato</label> <input type="radio" id="favPy"
+				name="fav" value="determinato" /> <label for="favPy">Determinato</label>
+			<input type="radio" id="favCpp" name="fav" value="indeterminato" /> <label
+				for="favCpp">Indeterminato</label>
+		</div>
+		<div>
+			<input type="submit" value="Invio" />
+		</div>
+	</form>
+</body>
+</html>
